@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naughty-tadataka</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .logo h1 {
+            font-size: 2rem;
+            color: #0072c6;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #0072c6;
+        }
+
+        .app-card {
+            text-align: center;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .app-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .app-card p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .google-play-btn {
+            display: inline-block;
+            background-color: #0072c6;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>naughty-tadataka</h1>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">アプリ一覧</h2>
+            <div class="app-card">
+                <h3>honn</h3>
+                <p>本の管理を簡単に。カメラで撮影するだけで本の情報を自動認識。読書管理をスマートに。</p>
+                <a href="https://play.google.com/store/apps/details?id=com.naughtytadataka.honn" class="google-play-btn">Google Playで入手</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 naughty-tadataka All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
